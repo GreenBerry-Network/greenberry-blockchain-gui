@@ -8,7 +8,7 @@
       "esnext"
     ],
     "paths": {
-      "@flax/*": ["./components/*"]
+      "@greenberry/*": ["./components/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,

@@ -9,8 +9,8 @@ import {
   Keys as KeysIcon,
   Home as HomeIcon,
   Plot as PlotIcon,
-} from '@flax/icons';
-import { Flex, SideBarItem } from '@flax/core';
+} from '@greenberry/icons';
+import { Flex, SideBarItem } from '@greenberry/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`

@@ -72,8 +72,8 @@ export default {
       'node_modules',
     ],
     alias: {
-      "@flax/core": `${__dirname}/src/components/core`,
-      "@flax/icons": `${__dirname}/src/components/icons`,
+      "@greenberry/core": `${__dirname}/src/components/core`,
+      "@greenberry/icons": `${__dirname}/src/components/icons`,
       crypto: 'crypto-browserify',
       stream: 'stream-browserify',
     },

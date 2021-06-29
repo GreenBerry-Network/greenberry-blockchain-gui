@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Flax {
+class Greenberry {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Flax {
   }
 }
 
-export const flax_formatter = (value, unit) => new Flax(value, unit);
+export const greenberry_formatter = (value, unit) => new Greenberry(value, unit);
 
-flax_formatter.convert = convert;
-flax_formatter.setDisplay = units.setDisplay;
-flax_formatter.setUnit = units.setUnit;
-flax_formatter.getUnit = units.getUnit;
-flax_formatter.setFiat = (currency, rate, display = null) => {
+greenberry_formatter.convert = convert;
+greenberry_formatter.setDisplay = units.setDisplay;
+greenberry_formatter.setUnit = units.setUnit;
+greenberry_formatter.getUnit = units.getUnit;
+greenberry_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_flax = (mojo) => {
-  return flax_formatter(Number.parseInt(mojo), 'mojo').to('flax').value();
+export const mojo_to_greenberry = (mojo) => {
+  return greenberry_formatter(Number.parseInt(mojo), 'mojo').to('greenberry').value();
 };
 
-export const flax_to_mojo = (flax) => {
-  return flax_formatter(Number.parseFloat(Number(flax)), 'flax')
+export const greenberry_to_mojo = (greenberry) => {
+  return greenberry_formatter(Number.parseFloat(Number(greenberry)), 'greenberry')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_flax_string = (mojo) => {
-  return flax_formatter(Number(mojo), 'mojo').to('flax').toString();
+export const mojo_to_greenberry_string = (mojo) => {
+  return greenberry_formatter(Number(mojo), 'mojo').to('greenberry').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return flax_formatter(Number.parseInt(mojo), 'mojo')
+  return greenberry_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return flax_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return greenberry_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return flax_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return greenberry_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };

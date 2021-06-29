@@ -1,3 +1,3 @@
-# flax-blockchain
+# greenberry-blockchain
 
-This is the GUI for flax-blockchain. It is built into distribution packages in the flax-blockchain repository.
+This is the GUI for greenberry-blockchain. It is built into distribution packages in the greenberry-blockchain repository.
