@@ -19,8 +19,8 @@ msgstr ""
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:70
-msgid "*Want to explore Greenberry’s blocks further? Check out <0>Greenberry Explorer</0> built by an open source developer."
-msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Greenberry? Δοκιμάστε το <0>Greenberry Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
+#~ msgid "*Want to explore Greenberry’s blocks further? Check out <0>Greenberry Explorer</0> built by an open source developer."
+#~ msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Greenberry? Δοκιμάστε το <0>Greenberry Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -118,7 +118,7 @@ msgstr "Ποσό ({cc_unit})"
 msgid "Amount For Initial Coin"
 msgstr "Ποσό για Αρχικό Νομίσμα"
 
-#: src/components/plot/PlotAction.tsx:36
+#: src/components/plot/PlotAction.tsx:37
 #: src/components/plot/queue/PlotQueueActions.tsx:43
 msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το plot?? Το plot δεν μπορεί να ανακτηθεί."
@@ -266,18 +266,6 @@ msgstr "Πρόκληση Hash"
 #: src/electron/main.tsx:402
 msgid "Chat on Discord"
 msgstr "Συνομιλήστε στο Discord"
-
-#: src/electron/main.tsx:420
-msgid "Greenberry"
-msgstr "Greenberry"
-
-#: src/electron/main.tsx:359
-msgid "Greenberry Blockchain Wiki"
-msgstr "Greenberry Blockchain Wiki"
-
-#: src/components/wallet/Wallets.tsx:56
-msgid "Greenberry Wallet"
-msgstr "Πορτοφόλι Greenberry"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:21
 msgid "Choose Number of Plots"
@@ -504,8 +492,8 @@ msgstr "Ημερομηνία"
 msgid "Delay"
 msgstr "Καθυστέρηση"
 
-#: src/components/plot/PlotAction.tsx:34
-#: src/components/plot/PlotAction.tsx:58
+#: src/components/plot/PlotAction.tsx:35
+#: src/components/plot/PlotAction.tsx:59
 #: src/components/plot/queue/PlotQueueActions.tsx:40
 #: src/components/plot/queue/PlotQueueActions.tsx:85
 #: src/components/selectKey/SelectKey.tsx:61
@@ -513,7 +501,7 @@ msgstr "Καθυστέρηση"
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: src/components/plot/PlotAction.tsx:33
+#: src/components/plot/PlotAction.tsx:34
 #: src/components/plot/queue/PlotQueueActions.tsx:39
 msgid "Delete Plot"
 msgstr "Διαγραφή Plot"
@@ -755,6 +743,18 @@ msgstr "Πλήρης Οθόνη"
 #: src/components/wallet/create/createNewColouredCoin.jsx:106
 msgid "Generate New Colour"
 msgstr "Δημιουργία Νέου Χρώματος"
+
+#: src/electron/main.tsx:420
+msgid "Greenberry"
+msgstr "Greenberry"
+
+#: src/electron/main.tsx:359
+msgid "Greenberry Blockchain Wiki"
+msgstr "Greenberry Blockchain Wiki"
+
+#: src/components/wallet/Wallets.tsx:56
+msgid "Greenberry Wallet"
+msgstr "Πορτοφόλι Greenberry"
 
 #: src/components/wallet/standard/WalletStandard.tsx:559
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
@@ -1909,12 +1909,12 @@ msgstr "Αναμονή για συγχρονισμό"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.greenberryWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.greenberryWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
